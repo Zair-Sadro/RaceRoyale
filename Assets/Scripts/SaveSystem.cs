@@ -54,7 +54,6 @@ public class SaveSystem : MonoBehaviour
 		PlayerStats.Instance.Coins = PlayerPrefs.GetInt(DATA_COINS, 0);
 		LevelSystem.Instance.CurrentLevel = PlayerPrefs.GetInt(DATA_LEVEL, 1);
 		
-		Settings.Instance.SetVibration(PlayerPrefs.GetInt(DATA_VIBRATION) == 1 ? true : false);
 		
 		for(int i = 0; i < SKINS_AMOUNT; i ++)
 		{
