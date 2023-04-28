@@ -14,9 +14,10 @@ public class SaveSystem : MonoBehaviour
 	
 	// Settings
 	private const string DATA_VIBRATION = "DATA_VIBRATION";
-	
+
 	private void Awake()
 	{
+
 	    LoadData();
 	}
     

@@ -9,6 +9,7 @@ public class SelectVehicleButton : MonoBehaviour
 	[SerializeField] private Image _icon;
 	[SerializeField] private CarSwitcher _carSwitcher;
 	[SerializeField] private Car.Type _carType;
+	[SerializeField] private KeyCode buttonName;
 
 	private void OnEnable()
 	{
@@ -18,9 +19,16 @@ public class SelectVehicleButton : MonoBehaviour
 	private void OnDisable()
 	{
 		CarSwitcher.OnCarSwitch -= OnCarSwitch;
+		
 	}
-	
-	private void OnCarSwitch(Car.Type carType)
+    private void Update()
+    {
+        if(Input.GetKeyDown(buttonName))
+		{
+			SwitchCar();
+		}
+    }
+    private void OnCarSwitch(Car.Type carType)
 	{
 		if(carType == _carType)
 		{
@@ -43,5 +51,6 @@ public class SelectVehicleButton : MonoBehaviour
 	public void SwitchCar()
 	{
 		_carSwitcher.SetCar(_carType);
+		AudioManager.Instance.CarSwitch();
 	}
 }

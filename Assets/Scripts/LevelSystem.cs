@@ -82,7 +82,7 @@ public class LevelSystem : Singleton<LevelSystem>
 	{
 		IsVictoryLast = victory;
 		StopCoroutine(LevelTimer());
-		SendFinishLevelMetrics(victory, leave);
+		//SendFinishLevelMetrics(victory, leave);
 	}
 	
 	private void RunLevel()
@@ -90,7 +90,7 @@ public class LevelSystem : Singleton<LevelSystem>
 		LevelPlayCount++;
 		ResetGame();
 		StartCoroutine(LevelTimer());
-		SendStartLevelMetrics();
+		//SendStartLevelMetrics();
 		UIManager.Instance.EnableGameUI();
 	}
 	

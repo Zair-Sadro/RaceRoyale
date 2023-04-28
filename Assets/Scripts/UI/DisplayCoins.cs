@@ -2,6 +2,7 @@
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using System;
 
 public class DisplayCoins : MonoBehaviour
 {
@@ -38,13 +39,18 @@ public class DisplayCoins : MonoBehaviour
 	{
 		StartCoroutine(MultiplyAnim(targetValue));
 	}
-	
-	private IEnumerator MultiplyAnim(float multiply)
+    public void AddWatched()
+    {
+        PlayMultiplyAnim(2);
+		PlayerStats.Instance.CurrentCoins *= 2;
+    }
+    private IEnumerator MultiplyAnim(float multiply)
 	{
 		float value = 0f;
 		float currentCoins = PlayerStats.Instance.CurrentCoins;
 		float diff = (currentCoins * multiply) - currentCoins;
 		float coinPerSec = diff / _multiplyAnimSpeed;
+		AudioManager.Instance.Coin();
 		while(diff > 0)
 		{
 			diff -= coinPerSec * Time.unscaledDeltaTime;
@@ -58,4 +64,6 @@ public class DisplayCoins : MonoBehaviour
 			yield return null;
 		}
 	}
+
+  
 }
