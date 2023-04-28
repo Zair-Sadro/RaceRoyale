@@ -19,5 +19,6 @@ public class DisplayFuel : MonoBehaviour
 	private void OnFuelChange(int amount)
 	{
 		_text.text = amount.ToString();
+		AudioManager.Instance.PickGas();
 	}
 }

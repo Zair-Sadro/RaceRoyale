@@ -6,10 +6,15 @@ public class VictoryPanel : MonoBehaviour
 {
 	[SerializeField] private float _scaleTime = 1f;
 	[SerializeField] private TMP_Text _topText;
+
+	[SerializeField] private GameObject AddButton;
 	
 	protected void OnEnable()
 	{
-		if(GameEnd.Instance.PlayerFirst)
+		AddButton.SetActive(true);
+
+
+        if (GameEnd.Instance.PlayerFirst)
 			_topText.text = "Level COMPLETED!";
 		else
 			_topText.text = "Try again!";

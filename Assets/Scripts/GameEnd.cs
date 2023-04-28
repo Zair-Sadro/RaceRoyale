@@ -40,6 +40,7 @@ public class GameEnd : Singleton<GameEnd>
 		else
 		{
 			_player.Disable(false);
+			AudioManager.Instance.Lose();
 			Invoke(nameof(SetLose), 2f);
 		}
 	}
