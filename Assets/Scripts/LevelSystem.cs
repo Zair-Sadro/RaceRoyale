@@ -7,8 +7,7 @@ public class LevelSystem : Singleton<LevelSystem>
 {
 	[Header("Settings")]
 	public int CurrentLevel = 1; 
-	public int LevelPlayCount = 0;
-	[SerializeField] private GameObject[] _tips;
+	public int LevelPlayCount = 0; 
 	
 	[Header("Dependencies")]
 	[SerializeField] private MapGenerator _generator;
@@ -89,31 +88,11 @@ public class LevelSystem : Singleton<LevelSystem>
 	private void RunLevel()
 	{
 		LevelPlayCount++;
-		if (CurrentLevel == 1)
-			ShowTip();
-
-        ResetGame();
+		ResetGame();
 		StartCoroutine(LevelTimer());
 		//SendStartLevelMetrics();
 		UIManager.Instance.EnableGameUI();
 	}
-	private void ShowTip()
-	{
-		StartCoroutine(ShowAndHide());
-	}
-	IEnumerator ShowAndHide()
-	{
-		foreach (var item in _tips)
-		{
-			item.SetActive(true);
-		}
-		yield return new WaitForSeconds(5f);
-        foreach (var item in _tips)
-        {
-            item.SetActive(false);
-        }
-
-    }
 	
 	private void SendFinishLevelMetrics(bool victory, bool leave)
 	{

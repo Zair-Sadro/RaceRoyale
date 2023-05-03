@@ -32,13 +32,11 @@ public class AudioManager : Singleton<AudioManager>
     }
     public void Coin()
     {
-        _oneShot2.volume = 1f;
         _oneShot2.PlayOneShot("coin");
 
     }
     public void PickGas()
     {
-        _oneShot2.volume = 0.07f;
         _oneShot2.PlayOneShot("gas");
 
     }
@@ -60,6 +58,9 @@ public class AudioManager : Singleton<AudioManager>
         yield return new WaitForSeconds(0.7f);
         _music.volume = 1;
     }
+
+
+
 
 
 }
