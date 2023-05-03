@@ -50,7 +50,7 @@ public class Car : MonoBehaviour
 		Bike,
 		Truck,
 		Boat,
-		Helicopter,
+		Air,
 		Suv
 	}
 }

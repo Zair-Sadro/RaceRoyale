@@ -6,8 +6,9 @@ public class SkinButton : MonoBehaviour
 {
 	[SerializeField] private ChangePlayerSkin _skinChanger;
 	[SerializeField] private GameObject _selectedImage;
-	[SerializeField] private ShopSystem.E_SkinType _type;
+	[SerializeField] private Car.Type _type;
 	[SerializeField] private Car.Type _carType;
+	[SerializeField]
 	private int _skinID;
 	public Image background;
 	public Image _icon;
@@ -17,14 +18,14 @@ public class SkinButton : MonoBehaviour
 	public GameObject _costPanel;
 	public TMP_Text _costText;
 	
-	public void UpdateUI(Car.Type carType, ShopSystem.E_SkinType type, int skinID, Sprite icon = null)
+	public void UpdateUI(Car.Type carType, int skinID, Sprite icon = null)
 	{
-		_skinID = skinID;
 		_carType = carType;
-		_type = type;
+		_type = carType;
 		if(icon != null)
 			_icon.sprite = icon;
-		_available = ShopSystem.Instance.IsSkinAvailable(_type);
+
+		_available = ShopSystem.Instance.IsSkinAvailable(skinID,carType);
 		
 		if(_available)
 		{
@@ -36,7 +37,7 @@ public class SkinButton : MonoBehaviour
 		{
 			background.color = disabledColor;
 			_icon.color = disabledColor;
-			_costText.text = SkinCosts.Instance.GetSkinCost(_type).ToString();
+			_costText.text = SkinCosts.Instance.GetSkinCost(skinID,_type).ToString();
 			_costPanel.SetActive(true);
 		}
 		
@@ -61,9 +62,9 @@ public class SkinButton : MonoBehaviour
 		else
 		{
 			//Buy skin
-			if(ShopSystem.Instance.TryBuySkin(_type))
+			if(ShopSystem.Instance.TryBuySkin(_skinID,_type))
 			{
-				UpdateUI(_carType, _type, _skinID);
+				UpdateUI(_carType,_skinID);
 			}
 		}
 	}

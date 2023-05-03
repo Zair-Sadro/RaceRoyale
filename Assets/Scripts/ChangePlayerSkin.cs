@@ -3,40 +3,55 @@ using UnityEngine;
 
 public class ChangePlayerSkin : MonoBehaviour
 {
+	
 	[SerializeField] private CarSkins[] _cars;
 	
 	private Dictionary<Car.Type, int> _selectedSkins;
-	[HideInInspector] public Dictionary<Car.Type, int> SelectedSkins
+	public Dictionary<Car.Type, int> SelectedSkins
 	{
-		get
-		{
+        //DONT CHANGE Orders of keys 
+        get
+        {
 			if(_selectedSkins == null)
 			{
-				_selectedSkins = new Dictionary<Car.Type, int>();
-				_selectedSkins.Add(Car.Type.Bike, 0);
-				_selectedSkins.Add(Car.Type.Boat, 0);
-				_selectedSkins.Add(Car.Type.Helicopter, 0);
-				_selectedSkins.Add(Car.Type.Sportcar, 0);
-				_selectedSkins.Add(Car.Type.Suv, 0);
-				_selectedSkins.Add(Car.Type.Truck, 0);
-			}
+                _selectedSkins = new Dictionary<Car.Type, int>
+                {
+                    { Car.Type.Sportcar, 0 },                    
+                    { Car.Type.Bike, 0 },
+                    { Car.Type.Truck, 0 },
+                    { Car.Type.Boat, 0 },
+                    { Car.Type.Air, 0 },                                                        
+                    { Car.Type.Suv, 0 }
+                };
+            }
 			return _selectedSkins;
 		}
-	}
-	
-	public void SetSkin(Car.Type car, int skin)
-	{
-		SelectedSkins[car] = skin;
-		_cars[(int)car].SetSkin(SelectedSkins[car]);
-	}
-	
-	// Update is called every frame, if the MonoBehaviour is enabled.
-	protected void Update()
-	{
-		if(Input.GetKeyDown(KeyCode.F))
-		foreach(var s in SelectedSkins)
+		set
 		{
-			print(s.Key.ToString() + ":   " + s.Value.ToString());
+			_selectedSkins = new(value);
 		}
 	}
+	
+	public void SetSkin(Car.Type type, int id)
+	{
+		SelectedSkins[type] = id;
+		_cars[(int)type].SetSkin(SelectedSkins[type]);
+
+		Saver.Instance.SaveSelectedSkin(type, id);
+
+	}
+
+	public void InitFromSave(Dictionary<Car.Type, int> selectedCar)
+	{
+        SelectedSkins = selectedCar;
+        var typeC = Car.Type.Sportcar;
+        for (int i = 0; i < 6; i++)
+		{
+			_cars[i].SetSkin(selectedCar[typeC]);
+			ShopSystem.Instance.UpdateSkinButtons(typeC);
+			++typeC;
+        }
+
+    }
+	
 }
