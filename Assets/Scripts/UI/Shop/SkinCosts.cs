@@ -1,31 +1,47 @@
-﻿using UnityEngine;
-
-public class SkinCosts : Singleton<SkinCosts>
+﻿public class SkinCosts : Singleton<SkinCosts>
 {
-	public SkinCost[] Skins;
-	
-	public int GetSkinCost(ShopSystem.E_SkinType type)
-	{
-		for(int i = 0; i < Skins.Length; i++)
-		{
-			if(Skins[i].type == type)
-			{
-				return Skins[i].Coins;
-			}
-		}
-		return Skins[0].Coins;
-	}
-	
-	[System.Serializable]
-	public class SkinCost
-	{
-		public ShopSystem.E_SkinType type;
-		public int Coins;
-		
-		public SkinCost(ShopSystem.E_SkinType _type, int _coins)
-		{
-			Coins = _coins;
-			type = _type;
-		}
-	}
+    public SkinCost[] SporCarSkins;
+    public SkinCost[] BoatSkins;
+    public SkinCost[] AirSkins;
+    public SkinCost[] SUVSkins;
+    public SkinCost[] BikeSkins;
+    public SkinCost[] TruckSkins;
+
+    public int GetSkinCost(int id, Car.Type type)
+    {
+        SkinCost[] skins = default;
+        switch (type)
+        {
+            case Car.Type.Sportcar:
+                skins = SporCarSkins;
+                break;
+            case Car.Type.Bike:
+                skins = BikeSkins;             
+                break;
+            case Car.Type.Truck:
+                skins = TruckSkins;
+               
+                break;
+            case Car.Type.Boat:
+                skins = BoatSkins;
+              
+                break;
+            case Car.Type.Air:
+                skins = AirSkins;             
+                break;
+            case Car.Type.Suv:
+                skins = SUVSkins;
+                break;
+
+        }
+
+        return 1500;
+    }
+
+    [System.Serializable]
+    public class SkinCost
+    {
+        public int Coins;
+
+    }
 }

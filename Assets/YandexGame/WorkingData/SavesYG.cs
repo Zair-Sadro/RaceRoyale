@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace YG
 {
     [System.Serializable]
@@ -10,27 +12,40 @@ namespace YG
         public string language = "ru";
         public bool promptDone;
 
-        // Тестовые сохранения для демо сцены
-        // Можно удалить этот код, но тогда удалите и демо (папка Example)
-        public int money = 1;                       // Можно задать полям значения по умолчанию
-        public string newPlayerName = "Hello!";
-        public bool[] openLevels = new bool[3];
 
         // Ваши сохранения
 
         public int coins = 0;
         public int level = 1;
+        public List<(int, Car.Type )> purchasedCars = new List<(int, Car.Type)> 
+        {
+                    { (0, Car.Type.Bike)  },
+                    { (0, Car.Type.Boat) },
+                    { (0, Car.Type.Air) },
+                    { (0, Car.Type.Sportcar) },
+                    { (0, Car.Type.Suv) },
+                    { (0, Car.Type.Truck) }
+        };
+        public Dictionary<Car.Type, int> selectedCar = new Dictionary<Car.Type, int>
+        {
+                    { Car.Type.Bike, 0 },
+                    { Car.Type.Boat, 0 },
+                    { Car.Type.Air, 0 },
+                    { Car.Type.Sportcar, 0 },
+                    { Car.Type.Suv, 0 },
+                    { Car.Type.Truck, 0 }
+        };
 
-        // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
-        // Пока выявленное ограничение - это расширение массива
+// Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
+// Пока выявленное ограничение - это расширение массива
 
 
-        // Вы можете выполнить какие то действия при загрузке сохранений
-        public SavesYG()
+// Вы можете выполнить какие то действия при загрузке сохранений
+public SavesYG()
         {
             // Допустим, задать значения по умолчанию для отдельных элементов массива
 
-            openLevels[1] = true;
+           
 
             // Длина массива в проекте должна быть задана один раз!
             // Если после публикации игры изменить длину массива, то после обновления игры у пользователей сохранения могут поломаться
