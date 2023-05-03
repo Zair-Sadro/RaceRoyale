@@ -53,6 +53,7 @@ public class SkinButton : MonoBehaviour
 	
 	public void SelectOrBuySkin()
 	{
+		
 		if(_available)
 		{
 			_skinChanger.SetSkin(_carType, _skinID);
@@ -67,5 +68,6 @@ public class SkinButton : MonoBehaviour
 				UpdateUI(_carType,_skinID);
 			}
 		}
-	}
+        Saver.Instance.Save();
+    }
 }
