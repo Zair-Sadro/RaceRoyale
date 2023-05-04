@@ -1311,34 +1311,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!83 &136692537
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: gas
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!224 &141161778 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3350166986195280883, guid: 38091207bac17b241b018cda52d91caa, type: 3}
@@ -1699,6 +1671,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171943018}
   m_Mesh: {fileID: -4902715531956980779, guid: 8aff4590ac2013d449795a731bc8d1e8, type: 3}
+--- !u!83 &177276707
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: switch
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &180035265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,34 +1897,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191180265}
   m_Mesh: {fileID: -8463366097752224357, guid: fc27a2c9277e24c4d8c360fa77013b2c, type: 3}
---- !u!83 &198617969
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: switch
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &200213552
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,37 +3414,37 @@ MonoBehaviour:
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1872076967}
+    Cash: {fileID: 1112915665}
     Cashing: 1
   - name: click
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 491805403}
+    Cash: {fileID: 1840325899}
     Cashing: 1
   - name: coin
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 774167238}
+    Cash: {fileID: 1864077268}
     Cashing: 1
   - name: gas
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 136692537}
+    Cash: {fileID: 1144741098}
     Cashing: 1
   - name: lose
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1858309784}
+    Cash: {fileID: 1038239009}
     Cashing: 1
   - name: switch
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 731056779}
+    Cash: {fileID: 177276707}
     Cashing: 1
 --- !u!1 &326142402
 GameObject:
@@ -3559,6 +3531,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326142402}
   m_Mesh: {fileID: -498277623978347478, guid: 9740330ab2a01db43a34851fdc863452, type: 3}
+--- !u!83 &333921068
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: coin
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &336070477
 GameObject:
   m_ObjectHideFlags: 0
@@ -10070,6 +10070,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461717244}
   m_CullTransparentMesh: 1
+--- !u!83 &470425198
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: click
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &477888520
 GameObject:
   m_ObjectHideFlags: 0
@@ -10385,34 +10413,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211726105377631939, guid: 722b47f7e63dcd948bba9f15f26002a6, type: 3}
   m_PrefabInstance: {fileID: 489501467}
   m_PrefabAsset: {fileID: 0}
---- !u!83 &491805403
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: click
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &493794158
 GameObject:
   m_ObjectHideFlags: 0
@@ -10977,34 +10977,6 @@ MonoBehaviour:
   _scaleTime: 1
   _topText: {fileID: 1126789942}
   AddButton: {fileID: 1800090780}
---- !u!83 &535231853
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &535727790
 GameObject:
   m_ObjectHideFlags: 0
@@ -11056,37 +11028,37 @@ MonoBehaviour:
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 535231853}
+    Cash: {fileID: 806230912}
     Cashing: 1
   - name: click
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 798442250}
+    Cash: {fileID: 470425198}
     Cashing: 1
   - name: coin
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1551356373}
+    Cash: {fileID: 333921068}
     Cashing: 1
   - name: gas
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1466460545}
+    Cash: {fileID: 984210246}
     Cashing: 1
   - name: lose
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 550638207}
+    Cash: {fileID: 1503569601}
     Cashing: 1
   - name: switch
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1501909723}
+    Cash: {fileID: 1191775595}
     Cashing: 1
 --- !u!82 &535727793
 AudioSource:
@@ -11560,34 +11532,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: -1901113602327010666, guid: a8a4d94c871348b48aaf783e464f7dd7, type: 3}
   Opponent: {fileID: 0}
---- !u!83 &550638207
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: lose
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &559158102
 GameObject:
   m_ObjectHideFlags: 0
@@ -11876,6 +11820,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572052166}
   m_Mesh: {fileID: -4902715531956980779, guid: 8aff4590ac2013d449795a731bc8d1e8, type: 3}
+--- !u!83 &581464585
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: gas
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &583290890
 GameObject:
   m_ObjectHideFlags: 0
@@ -12028,11 +12000,27 @@ PrefabInstance:
       objectReference: {fileID: 1261626319}
     - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 176.8266
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 132.6173
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3350166986195280880, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_Name
@@ -12146,6 +12134,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5554543546449514046, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b87db8b0d7296964caded29d0631ceac, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38091207bac17b241b018cda52d91caa, type: 3}
 --- !u!114 &583953891 stripped
@@ -14371,34 +14363,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!83 &731056779
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: switch
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &732415877
 GameObject:
   m_ObjectHideFlags: 0
@@ -14728,34 +14692,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!83 &774167238
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: coin
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &783691537
 GameObject:
   m_ObjectHideFlags: 0
@@ -14996,34 +14932,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!83 &798442250
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: click
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &801544267
 GameObject:
   m_ObjectHideFlags: 0
@@ -15110,6 +15018,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801544267}
   m_Mesh: {fileID: -8805797009788571192, guid: 3870a275b2e40b449b7a510f055daf60, type: 3}
+--- !u!83 &806230912
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &806776919
 GameObject:
   m_ObjectHideFlags: 0
@@ -15205,12 +15141,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef663759e34099499fa99a5c07e4287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SporCarSkins: []
-  BoatSkins: []
-  AirSkins: []
-  SUVSkins: []
-  BikeSkins: []
-  TruckSkins: []
+  SporCarSkins:
+  - Coins: 1000
+  - Coins: 1500
+  - Coins: 2200
+  BoatSkins:
+  - Coins: 1000
+  - Coins: 1500
+  - Coins: 3000
+  AirSkins:
+  - Coins: 600
+  - Coins: 1500
+  - Coins: 2000
+  SUVSkins:
+  - Coins: 600
+  - Coins: 1500
+  - Coins: 2000
+  BikeSkins:
+  - Coins: 1000
+  - Coins: 1500
+  - Coins: 2200
+  TruckSkins:
+  - Coins: 1000
+  - Coins: 1500
+  - Coins: 2200
 --- !u!114 &808696625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17135,6 +17089,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983719410}
   m_Mesh: {fileID: 4300000, guid: ebbb4e189c64062409a89c811993b90d, type: 3}
+--- !u!83 &984210246
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: gas
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &990764105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17351,6 +17333,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 496482, guid: 0b633a4487d7c2b4a8fe50c9bcfd9b2e, type: 3}
   m_PrefabInstance: {fileID: 1037023154}
   m_PrefabAsset: {fileID: 0}
+--- !u!83 &1038239009
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: lose
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1040811086
 GameObject:
   m_ObjectHideFlags: 0
@@ -18145,6 +18155,34 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!83 &1112915665
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1126588108
 GameObject:
   m_ObjectHideFlags: 0
@@ -18602,6 +18640,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136929762}
   m_CullTransparentMesh: 1
+--- !u!83 &1144741098
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: gas
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
+--- !u!83 &1149867308
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: switch
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1165348567
 GameObject:
   m_ObjectHideFlags: 0
@@ -19002,6 +19096,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190964647}
   m_Mesh: {fileID: -8463366097752224357, guid: fc27a2c9277e24c4d8c360fa77013b2c, type: 3}
+--- !u!83 &1191775595
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: switch
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1210464210
 GameObject:
   m_ObjectHideFlags: 0
@@ -20030,11 +20152,27 @@ PrefabInstance:
       objectReference: {fileID: 1261626319}
     - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 176.8266
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 132.6173
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.9999967
       objectReference: {fileID: 0}
     - target: {fileID: 3350166986195280880, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_Name
@@ -20148,6 +20286,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5554543546449514046, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b87db8b0d7296964caded29d0631ceac, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38091207bac17b241b018cda52d91caa, type: 3}
 --- !u!114 &1310141253 stripped
@@ -25997,34 +26139,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415907008}
   m_CullTransparentMesh: 0
---- !u!83 &1425161461
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: coin
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &1425805474
 GameObject:
   m_ObjectHideFlags: 0
@@ -26683,34 +26797,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466116849}
   m_CullTransparentMesh: 1
---- !u!83 &1466460545
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: gas
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &1470859100
 GameObject:
   m_ObjectHideFlags: 0
@@ -27196,13 +27282,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 496482, guid: 0b633a4487d7c2b4a8fe50c9bcfd9b2e, type: 3}
   m_PrefabInstance: {fileID: 1498493507}
   m_PrefabAsset: {fileID: 0}
---- !u!83 &1501909723
+--- !u!83 &1503569601
 AudioClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: switch
+  m_Name: lose
   m_LoadType: 0
   m_Channels: 0
   m_Frequency: 0
@@ -27815,34 +27901,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546586504}
   m_CullTransparentMesh: 1
---- !u!83 &1551356373
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: coin
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1001 &1559233012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28814,6 +28872,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642232762}
   m_Mesh: {fileID: -8463366097752224357, guid: fc27a2c9277e24c4d8c360fa77013b2c, type: 3}
+--- !u!83 &1656401863
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: coin
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1670909415
 GameObject:
   m_ObjectHideFlags: 0
@@ -28865,37 +28951,37 @@ MonoBehaviour:
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1784254420}
+    Cash: {fileID: 1799882873}
     Cashing: 1
   - name: click
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1782679609}
+    Cash: {fileID: 1787983433}
     Cashing: 1
   - name: coin
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1425161461}
+    Cash: {fileID: 1656401863}
     Cashing: 1
   - name: gas
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 2086120327}
+    Cash: {fileID: 581464585}
     Cashing: 1
   - name: lose
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 1775057575}
+    Cash: {fileID: 1847457994}
     Cashing: 1
   - name: switch
     Path: C:/Users/Alex/Desktop/Projects/RaceRoyale/Assets/StreamingAssets
     Ext: mp3
     Type: 13
-    Cash: {fileID: 198617969}
+    Cash: {fileID: 1149867308}
     Cashing: 1
 --- !u!82 &1670909418
 AudioSource:
@@ -29600,34 +29686,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774236992}
   m_Mesh: {fileID: -8463366097752224357, guid: fc27a2c9277e24c4d8c360fa77013b2c, type: 3}
---- !u!83 &1775057575
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: lose
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &1780733411
 GameObject:
   m_ObjectHideFlags: 0
@@ -29797,7 +29855,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 496482, guid: 0b633a4487d7c2b4a8fe50c9bcfd9b2e, type: 3}
   m_PrefabInstance: {fileID: 1721242614}
   m_PrefabAsset: {fileID: 0}
---- !u!83 &1782679609
+--- !u!83 &1787983433
 AudioClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29825,7 +29883,7 @@ AudioClip:
     m_Offset: 0
     m_Size: 0
   m_EditorCompressionFormat: 0
---- !u!83 &1784254420
+--- !u!83 &1799882873
 AudioClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30037,6 +30095,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838604515}
   m_CullTransparentMesh: 1
+--- !u!83 &1840325899
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: click
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1844908993
 GameObject:
   m_ObjectHideFlags: 0
@@ -30074,6 +30160,34 @@ RectTransform:
   m_AnchoredPosition: {x: -5.0000153, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!83 &1847457994
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: lose
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1848625951
 GameObject:
   m_ObjectHideFlags: 0
@@ -30256,34 +30370,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853425894}
   m_Mesh: {fileID: -498277623978347478, guid: 9740330ab2a01db43a34851fdc863452, type: 3}
---- !u!83 &1858309784
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: lose
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &1858774342
 GameObject:
   m_ObjectHideFlags: 0
@@ -30485,6 +30571,34 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3350166986195280883, guid: 38091207bac17b241b018cda52d91caa, type: 3}
   m_PrefabInstance: {fileID: 1862368956}
   m_PrefabAsset: {fileID: 0}
+--- !u!83 &1864077268
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: coin
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!4 &1864596070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6586728970417870638, guid: 3d0c175035dad9742abdedca0c98b9fa, type: 3}
@@ -30799,34 +30913,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871433623}
   m_CullTransparentMesh: 1
---- !u!83 &1872076967
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1001 &1877909351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32559,34 +32645,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068021476}
   m_Mesh: {fileID: -8463366097752224357, guid: fc27a2c9277e24c4d8c360fa77013b2c, type: 3}
---- !u!83 &2086120327
-AudioClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: gas
-  m_LoadType: 0
-  m_Channels: 0
-  m_Frequency: 0
-  m_BitsPerSample: 0
-  m_Length: 0
-  m_IsTrackerFormat: 0
-  m_Ambisonic: 0
-  m_SubsoundIndex: 0
-  m_PreloadAudioData: 1
-  m_LoadInBackground: 0
-  m_Legacy3D: 0
-  m_Resource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_CompressionFormat: 0
-  m_EditorResource:
-    m_Source: 
-    m_Offset: 0
-    m_Size: 0
-  m_EditorCompressionFormat: 0
 --- !u!1 &2097286446
 GameObject:
   m_ObjectHideFlags: 0
@@ -35140,6 +35198,30 @@ PrefabInstance:
       propertyPath: _carSwitcher
       value: 
       objectReference: {fileID: 1261626319}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600373725042758861, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.9999967
+      objectReference: {fileID: 0}
     - target: {fileID: 3350166986195280880, guid: 38091207bac17b241b018cda52d91caa, type: 3}
       propertyPath: m_Name
       value: '[Button] Select Car'
@@ -35228,6 +35310,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5554543546449514046, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554543546449514046, guid: 38091207bac17b241b018cda52d91caa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b87db8b0d7296964caded29d0631ceac, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38091207bac17b241b018cda52d91caa, type: 3}
 --- !u!114 &3350166986054227650 stripped

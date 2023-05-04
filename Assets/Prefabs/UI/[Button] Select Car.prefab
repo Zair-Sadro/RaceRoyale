@@ -133,17 +133,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprites:
-  - {fileID: 21300000, guid: 10978ddac1726aa469eaa4edda488624, type: 3}
-  - {fileID: 21300000, guid: 731a967db21a66a469b82cd04b60381f, type: 3}
-  - {fileID: 21300000, guid: 06e446bf6cb366b44a278b4eb74a978e, type: 3}
-  - {fileID: 21300000, guid: 1d32bb58a0316ec45994f98e585b803d, type: 3}
-  - {fileID: 21300000, guid: 5ed8f95a37e0955478a59dae5cc19646, type: 3}
-  - {fileID: 21300000, guid: 379f4ddc03f618e4d904a6843c38dbcb, type: 3}
+  - {fileID: 21300000, guid: afa17d0f9fc71544c843e8107eaf83f3, type: 3}
+  - {fileID: 21300000, guid: a2e9e44f5457b5e46aedbebef54cd7ec, type: 3}
+  - {fileID: 21300000, guid: b87db8b0d7296964caded29d0631ceac, type: 3}
+  - {fileID: 21300000, guid: a9b06a66f702ff24895ce6a7d5a3c1d7, type: 3}
+  - {fileID: 21300000, guid: 5f47659220bae6e46a2f69211e879574, type: 3}
+  - {fileID: 21300000, guid: 6464561b3ebea794aa56c99b0e178741, type: 3}
   _selectedScale: 1.2
   _selectedImage: {fileID: 7010485146044380376}
   _icon: {fileID: 5554543546449514046}
   _carSwitcher: {fileID: 0}
   _carType: 0
+  buttonName: 0
 --- !u!222 &3350166986195280887
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -33,9 +33,9 @@
                 skins = SUVSkins;
                 break;
 
+               
         }
-
-        return 1500;
+        return skins[id].Coins;
     }
 
     [System.Serializable]
