@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
 public class AudioManager : Singleton<AudioManager>
@@ -8,6 +7,7 @@ public class AudioManager : Singleton<AudioManager>
     void Start()
     {
         _music.Play("Base");
+
 
     }
 
@@ -32,13 +32,13 @@ public class AudioManager : Singleton<AudioManager>
     }
     public void Coin()
     {
-        _oneShot2.volume = 1f;
+        _oneShot2.volume = 0.4f;
         _oneShot2.PlayOneShot("coin");
 
     }
     public void PickGas()
     {
-        _oneShot2.volume = 0.07f;
+        _oneShot2.volume = 0.03f;
         _oneShot2.PlayOneShot("gas");
 
     }
