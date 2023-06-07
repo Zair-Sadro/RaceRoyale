@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using YG;
 
 public class LevelSystem : Singleton<LevelSystem>
 {
@@ -21,8 +22,9 @@ public class LevelSystem : Singleton<LevelSystem>
 	public bool IsVictoryLast = false;
 	
 	[SerializeField] private float _levelTimer = 0f;
-	
-	public static event System.Action OnLevelFinish;
+    [SerializeField] private Vector3 cameraStartRot;
+
+    public static event System.Action OnLevelFinish;
 	public static event System.Action<int> OnLevelChange;
 	public static event System.Action<int, int> OnLevelProgressChange;
 	
@@ -99,6 +101,7 @@ public class LevelSystem : Singleton<LevelSystem>
 	}
 	private void ShowTip()
 	{
+		if(YandexGame.EnvironmentData.isDesktop)
 		StartCoroutine(ShowAndHide());
 	}
 	IEnumerator ShowAndHide()
@@ -175,7 +178,7 @@ public class LevelSystem : Singleton<LevelSystem>
 		PlayerStats.Instance.ClaimCoins();
 		_player.ResetCar();
 		_cameraAnim.SetTrigger("ToIdle");
-		_cameraAnim.transform.rotation= Quaternion.identity;
+		_cameraAnim.transform.rotation= Quaternion.Euler(cameraStartRot);
 		PrepareScene();
 		UIManager.Instance.EnableMainMenu();
 		OnLevelFinish?.Invoke();

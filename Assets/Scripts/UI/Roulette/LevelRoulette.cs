@@ -7,6 +7,7 @@ public class LevelRoulette : MonoBehaviour
 	[SerializeField] private GameObject _holder;
 	[SerializeField] private RouletteChunk[] _chunks;
 	[SerializeField] private int _activatePerLevel = 5;
+	[SerializeField] private GameObject _x2Add;
 	[HideInInspector] public bool IsRouletteActive;
 	private float _reward = 1f;
 	
@@ -15,11 +16,14 @@ public class LevelRoulette : MonoBehaviour
 		if(LevelSystem.Instance.CurrentLevel % _activatePerLevel == 0 && LevelSystem.Instance.IsVictoryLast)
 		{
 			_holder.SetActive(true);
-		}
+			_x2Add.SetActive(false);
+
+        }
 		else
 		{
 			_holder.SetActive(false);
-			return;
+            _x2Add.SetActive(true);
+            return;
 		}
 		IsRouletteActive = _holder.activeSelf;
 		_arrow.enabled = true;

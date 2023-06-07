@@ -15,8 +15,7 @@ public class Pickup : MonoBehaviour
 			if(car.IsPlayer)
 			{
 				PlayerStats.Instance.AddFuel(1);
-				if(Settings.Instance.Vibration)
-					Vibrator.Vibrate(100);
+
 			}
 			_particles.transform.parent = null;
 			Destroy(gameObject);
